@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Phone_App</string>
+    <string name="Phones">Phone</string>
+    <string name="Add_phone">Add Phone</string>
 </resources>
