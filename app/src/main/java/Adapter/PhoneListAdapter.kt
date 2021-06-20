@@ -23,7 +23,7 @@ class PhoneListAdapter(context: Context, val list: List<Phone>, var itemClickLis
         }
         itemView.txt_item_phone.text = list[position].name
         itemView.card_item_phone.setOnClickListener {
-
+            itemClickListPhone.onClick(list[position], position)
         }
         return itemView
     }
