@@ -12,7 +12,7 @@ class TypeAdapter(context: Context, var list: List<String>, val itemGridOnClick:
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
-        var itemView:View
+        val itemView:View
         if (convertView!=null){
             itemView = convertView
         }else{

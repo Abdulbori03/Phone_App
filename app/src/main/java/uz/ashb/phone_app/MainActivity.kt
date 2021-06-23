@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         btn_menu.setOnClickListener {
             startActivity(Intent(this, MenuGridActivity::class.java))
         }
+        btn_add.setOnClickListener {
+            startActivity(Intent(this, AddPhoneListActivity::class.java))
+        }
     }
 
     private fun loadData(){

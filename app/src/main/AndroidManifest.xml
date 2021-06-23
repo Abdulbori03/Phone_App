@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Phone_App">
-        <activity android:name=".PhoneListActivity"></activity>
+        <activity android:name=".AddPhoneActivity"></activity>
+        <activity android:name=".AddPhoneListActivity" />
+        <activity android:name=".PhoneListActivity" />
         <activity android:name=".MenuGridActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
