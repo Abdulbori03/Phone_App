@@ -19,6 +19,9 @@
         app:layout_constraintBottom_toTopOf="@id/edt_features"
         android:layout_marginTop="20dp"
         android:gravity="start"
+        android:hint="@string/model"
+        android:textSize="20sp"
+        android:padding="15dp"
         app:layout_constraintHeight_percent="0.1"
         android:background="@drawable/edit_fon"/>
 
@@ -30,8 +33,12 @@
         app:layout_constraintTop_toBottomOf="@id/edt_phone_name"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:padding="20dp"
+        android:hint="@string/xarakteristika"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/btn_save"
-        android:background="@drawable/edit_fon"/>
+        android:background="@drawable/edit_fon"
+        android:gravity="start"/>
 
     <Button
         android:id="@+id/btn_save"
@@ -42,9 +49,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="Add"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintWidth_percent="0.35"
+        app:layout_constraintHorizontal_bias="0.9"
         android:textColor="@color/black"
         android:textAllCaps="false"
         android:padding="10dp"
+        android:backgroundTint="@color/yellow"
         android:layout_margin="20dp"/>
 
 

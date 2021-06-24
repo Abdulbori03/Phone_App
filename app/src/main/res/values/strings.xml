@@ -3,4 +3,7 @@
     <string name="Phones">Phone</string>
     <string name="Add_phone">Add Phone</string>
     <string name="phone">Phone</string>
+    <string name="model">Модель</string>
+    <string name="xarakteristika">Характеристика телефона</string>
+    <string name="xarakteristika1">Xarakteristika</string>
 </resources>

@@ -15,6 +15,7 @@ class MenuGridActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_grid)
+        supportActionBar?.hide()
 
         typeAdapter = TypeAdapter(this, MyData.typeListName, object : ItemGridOnClick{
             override fun onClick(type: String, position: Int) {

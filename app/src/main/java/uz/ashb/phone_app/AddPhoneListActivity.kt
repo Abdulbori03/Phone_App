@@ -15,6 +15,7 @@ class AddPhoneListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone_list)
+        supportActionBar?.hide()
 
     typeAdapter = TypeAdapter( this, MyData.typeListName, object : ItemGridOnClick{
         override fun onClick(type: String, position: Int) {
@@ -22,7 +23,11 @@ class AddPhoneListActivity : AppCompatActivity() {
             intent.putExtra("type", position)
             startActivity(intent)
         }
+
     })
         list_phones.adapter = typeAdapter
+
+
     }
+
 }
